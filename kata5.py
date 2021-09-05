@@ -6,5 +6,4 @@ def duplicate_encode(word):
 
 
 
-
 print(duplicate_encode("recede"))
