@@ -1,6 +1,6 @@
 def duplicate_encode(word):
     return word 
-
+fdd
 
 
 
