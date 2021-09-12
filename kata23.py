@@ -3,20 +3,12 @@ def done_or_not(board):
 
     _exLine = [1,2,3,4,5,6,7,8,9]
     
-    for i in range(9):
-        _line = copy.copy(board[i])
-        _line.sort()
-        
-        if _line != _exLine:
+    for i in board:
+        if sorted(i) != _exLine:
             return "Try again!"
 
-    for i in range(9):
-        _line = []
-        for j in range(9):
-            _line.append(board[j][i])
-        _line.sort()
-
-        if _line != _exLine:
+    for i in board:
+        if sorted(i) != _exLine:
             return "Try again!"
 
         # 1,1 1,2 1,3     1,4 1,5 1,6
