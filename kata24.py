@@ -17,3 +17,4 @@ def is_pangram(s):
     
     
 print(is_pangram("ABCD45EFGH,IJK,LMNOPQR56STUVW3XYZ"))
+
